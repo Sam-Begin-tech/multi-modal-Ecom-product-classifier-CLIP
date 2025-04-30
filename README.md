@@ -22,6 +22,33 @@ A powerful multi-modal AI system that classifies e-commerce products into catego
 - Python 3
 - OpenAI CLIP (via `open-clip-torch`)
 
+
+
+---
+
+## 🌟 Streamlit Interface
+
+This project also includes a **Streamlit** interface that allows for a seamless interaction with the product classifier model. The interface allows you to upload product images, and the classifier will automatically display the predicted category.
+
+### Screenshot
+
+![Streamlit Interface](preview.png)
+
+### How It Works
+
+- **Upload Product Image**: Users can upload a product image using the file uploader.
+- **Classify**: Once the image is uploaded, clicking the "Classify" button will run the CLIP model and predict the appropriate category.
+- **Results**: The predicted category will be displayed in the interface.
+
+
+This will open the Streamlit interface in your web browser where you can interact with the classifier.
+
+--- 
+
+
+
+
+
 ## Prerequisites
 
 Before you begin, make sure you have the following installed on your system:
@@ -85,15 +112,20 @@ This will install all the necessary Python libraries including `torch`, `transfo
 
 Now that the environment is set up, you can run the product classifier.
 
+### Run the Streamlit App
+
+To launch the Streamlit app, use the following command:
+
 ```bash
-streamlit run  ecommerce_classifier.py
+streamlit run streamlit_app.py
 ```
 
-This script will load the CLIP model and classify the input e-commerce images and product descriptions.
+
+This script will load the CLIP model and classify the input e-commerce images.
 
 ### Step 5: Testing the Classifier with a New Product
 
-The model will classify the image and description and return the predicted category.
+The model will classify the image and return the predicted category.
 
 ## Directory Structure
 
