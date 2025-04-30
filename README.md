@@ -32,7 +32,7 @@ This project also includes a **Streamlit** interface that allows for a seamless 
 
 ### Screenshot
 
-![Streamlit Interface](preview.png)
+![Streamlit Interface](preview2.png)
 
 ### How It Works
 
